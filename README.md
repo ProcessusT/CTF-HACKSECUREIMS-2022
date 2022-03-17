@@ -12,7 +12,7 @@ https://youtu.be/Hl4wKvphOH0
 Le premier challenge magic.2022.7z est un conteneur docker d'une machine boot2root dans l'univers d'Harry Potter
 Pour l'installation :
 
-7z x ./magic.2022.tar.7z
+7z x ./magic.2022.tar.7z.001
 
 docker import ./magic.2022.tar
 
@@ -23,6 +23,10 @@ docker run --name magic -h magic -p 0.0.0.0:8080:80 -p 0.0.0.0:2222:22 -p 0.0.0.
 
 
 Le second challenge physmem.7z est un dump de mémoire dans lequel on doit retrouver un processus en cours d'exécution
+
+Pour le décompresser :
+
+7z x ./physmem.7z.001
 
 
 -------------------------------------------------------------------------------------
